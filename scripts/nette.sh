@@ -7,7 +7,7 @@ IMAGENET_FOLDER=/mnt/ImageNet
 
 
 IPC=10
-T_SG=0 # STOP GUIDANCE
+T_SG=25 # STOP GUIDANCE
 SPEC=nette
 
 for ((i=0; i < 3; i++))
