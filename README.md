@@ -6,10 +6,13 @@ Download the repo:
 
 Set up the environment:
 
+```
 conda create -n modeguidance python=3.8
 conda activate modeguidance 
 pip install -r requirements.txt
-
+```
 
 Run Code:
+```
 ./scripts/nette.sh
+```
