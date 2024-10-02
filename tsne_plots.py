@@ -208,13 +208,7 @@ def main(args):
     original_data_path = args.imagenet_dir
     # original_finetune_ipc = args.finetune_ipc
     
-    if args.use_vae:
-        model = AutoencoderKL.from_pretrained(f"stabilityai/sd-vae-ft-mse").to(device)
-    else:
-        ckpt = torch.load("/home/jchan/MinimaxDiffusion/weights/model_best.pth.tar")
-        args.net_type = ckpt['arch']
-        model = define_model(args, args.nclass).to(device)
-        model.load_state_dict(ckpt['state_dict'])
+    model = AutoencoderKL.from_pretrained(f"stabilityai/sd-vae-ft-mse").to(device)
     model.eval()
 
     args.data_path = os.path.join(original_data_path[1], 'train')
