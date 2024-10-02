@@ -102,7 +102,6 @@ def main(args):
     model.eval()  # important!
     diffusion = create_diffusion(str(args.num_sampling_steps))
     vae = AutoencoderKL.from_pretrained(f"stabilityai/sd-vae-ft-{args.vae}").to(device)
-    # vae_ckpt = '/home/jchan/MinimaxDiffusion/logs/test/004-vae-vae_condensed_euclid_distance/checkpoints/0002900.pt'
     if args.vae_ckpt is not None:
         vae_ckpt = args.vae_ckpt
         ckpt = torch.load(vae_ckpt)
