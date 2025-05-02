@@ -13,7 +13,7 @@
 
 1. **Mode Discovery**: Identifies distinct data modes within each class.
 2. **Mode Guidance**: Steers the diffusion process toward the discovered modes.
-3. **Stop Guidance**: Transitions to unguided diffusion to prevent overfitting and artifacts.
+3. **Stop Guidance**: Transitions to unguided diffusion to prevent artifacts.
 
 This approach ensures high-quality, diverse synthetic datasets suitable for training robust models.
 
