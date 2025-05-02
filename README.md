@@ -9,13 +9,13 @@
 
 ## 🧠 Introduction
 
-**MGD³** presents a novel approach to dataset distillation by leveraging pre-trained diffusion models without the need for fine-tuning. The method enhances diversity and fidelity in synthetic datasets through a three-stage process:
+**MGD³** presents a novel approach to dataset distillation by leveraging pre-trained diffusion models without the need for fine-tuning. The method enhances diversity and representativeness in synthetic datasets through a three-stage process:
 
 1. **Mode Discovery**: Identifies distinct data modes within each class.
 2. **Mode Guidance**: Steers the diffusion process toward the discovered modes.
 3. **Stop Guidance**: Transitions to unguided diffusion to prevent artifacts.
 
-This approach ensures high-quality, diverse synthetic datasets suitable for training robust models.
+This approach ensures representative and diverse synthetic datasets suitable for training models.
 
 For more details, visualizations, and supplementary materials, visit the [Project Page](https://jachansantiago.com/mode-guided-distillation/).
 
@@ -44,5 +44,4 @@ To run the code on the ImageNette dataset:
   ```bash
   ./scripts/nette.sh
    ```
-Ensure that all necessary datasets and pre-trained models are available or will be downloaded as specified in the scripts.
 
