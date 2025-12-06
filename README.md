@@ -27,21 +27,28 @@ For more details, visualizations, and supplementary materials, visit the [Projec
 ## 🛠️ Installation
 
 1. **Clone the repository**:
-
-   ```bash
+```bash
    git clone https://github.com/jachansantiago/mode_guidance.git
    cd mode_guidance
-   ```
-2. Set up the environment:
+```
 
-   ```bash
+2. **Set up the environment**:
+```bash
    conda create -n modeguidance python=3.8
    conda activate modeguidance
    pip install -r requirements.txt
-   ```
-### 📊 Usage
-To run the code on the ImageNette dataset:
-  ```bash
-  ./scripts/nette.sh
-   ```
+```
 
+3. **For text-to-image distillation**:
+
+   Install our modified diffusers library:
+```bash
+   pip install -e diffusers
+```
+
+## 📊 Usage
+
+To run the code on the ImageNette dataset:
+```bash
+./scripts/nette.sh
+```

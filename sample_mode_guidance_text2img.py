@@ -102,7 +102,7 @@ def main(args):
         class_labels.append(all_classes.index(sel_class))
 
     with open('./misc/class_names.txt', 'r') as fp:
-            all_classes_names = fp.readlines()
+        all_classes_names = fp.readlines()
 
     sel_classes_names = [all_classes_names[all_classes.index(sel_class)].strip() for sel_class in sel_classes]
 
