@@ -3,7 +3,7 @@
 [![Project Page](https://img.shields.io/badge/Project%20Page-Mode--Guided%20Distillation-blue)](https://jachansantiago.com/mode-guided-distillation/)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-**📌 ICML 2025 Spotlight (Top 2.6%)**
+**📌 ICML 2025 Spotlight (Oral 1.0%)**
 
 ---
 
