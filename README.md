@@ -52,3 +52,11 @@ To run the code on the ImageNette dataset:
 ```bash
 ./scripts/nette.sh
 ```
+
+
+## Acknowledgements
+
+This project builds upon the following repositories:
+
+- [MinimaxDiffusion](https://github.com/vimar-gu/MinimaxDiffusion)
+- [D4M](https://github.com/suduo94/D4M)
